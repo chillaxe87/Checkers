@@ -1,0 +1,110 @@
+table{
+    width:  800px;
+    height: 800px;
+    border: solid;
+    border-width: 30px;
+    border-color: rgb(70, 0, 0);
+    align-self: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    text-align: center;
+}
+.emptySpace{
+    background-color: cornsilk;
+    display: inline-block;
+}
+.whitePiece{
+    width: 75px;
+    height: 75px;
+    background-color:rgb(235, 235, 235);
+    border: solid 5px black;
+    padding: 10px;
+    border-radius: 75px;
+    margin: auto;   
+}
+.blackPiece{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(27, 27, 27);
+    border: solid 5px black;
+    padding: 10px;
+    border-radius: 75px;
+    margin: auto;   
+    color: white;
+}
+h1{
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-image: url("desk.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.empty{
+    width: 75px;
+    height: 75px;
+    background-color: chocolate;
+    border: solid 3px chocolate;
+    padding: 10px;
+    border-radius: 75px;
+    margin: auto;   
+    color: white;
+}
+.available{
+    width: 75px;
+    height: 75px;
+    background-color:green;
+    border: solid 5px darkgreen;
+    border-radius: 75px;
+    padding: 10px;
+    margin: auto;   
+    color: black;
+}
+.availableKill{
+    width: 75px;
+    height: 75px;
+    background-color:green;
+    border: solid 5px darkslategray;
+    border-radius: 75px;
+    padding: 10px;
+    margin: auto;   
+    color: black;
+    box-shadow: 5px;
+}
+.blackKing{
+    width: 75px;
+    height: 75px;
+    background-color: rgb(27, 27, 27);
+    border: solid 5px black;
+    padding: 10px;
+    border-radius: 75px;
+    margin: auto;   
+    color: lime;   
+    font-size: 2em;
+}
+.whiteKing{
+    width: 75px;
+    height: 75px;
+    background-color:rgb(235, 235, 235);
+    border: solid 5px black;
+    padding: 10px;
+    border-radius: 75px;
+    margin: auto;   
+    color: purple;   
+    font-size: 2em;
+    font-weight: bolder;
+}
+button:focus{
+    outline: none;
+}
+button:active{
+    border-color: yellowgreen;
+}
+
